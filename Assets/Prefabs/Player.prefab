@@ -65,6 +65,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 5593415592590840292}
   speed: 12
+  playerControl: 1
 --- !u!1 &5593415594097515924
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +94,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5593415594097515924}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3, z: 0}
+  m_LocalPosition: {x: 0, y: 1.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5593415592590840293}
@@ -195,3 +196,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 100
   playerBody: {fileID: 5593415592590840293}
+  playerControl: 1
