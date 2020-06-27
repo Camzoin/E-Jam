@@ -8,20 +8,22 @@ namespace TMPro.Examples
     
     public class TeleType : MonoBehaviour
     {
-
-
         //[Range(0, 100)]
         //public int RevealSpeed = 50;
 
         public List<string> sentances;
 
-        private int textNum = 0;
+        public int textNum = 0;
 
         private TMP_Text m_textMeshPro;
 
-        bool newText = false;
+        public bool newText = false;
 
         int counter = 0;
+
+        public string speech;
+
+        public bool outsideTrig = false;
 
         void Awake()
         {
@@ -38,17 +40,19 @@ namespace TMPro.Examples
             newText = false;
 
             //debugger
-            //if (Input.GetKeyDown("l"))
-            //{
-            //    NextSentance();
-            //}
+            if (outsideTrig == true)
+            {
+                NextSentance();
+                outsideTrig = false;
+            }
+
         }
 
         public void NextSentance()
         {
             if (textNum + 2 <= sentances.Count)
             {
-
+                
                 textNum = textNum + 1;
                 newText = true;
             }
@@ -80,7 +84,7 @@ namespace TMPro.Examples
 
                 // Once the last character has been revealed, wait 1.0 second and start over.
                 if (visibleCount >= totalVisibleCharacters)
-                {                
+                {
                     yield return new WaitWhile(() => newText == false);
                     m_textMeshPro.text = sentances[textNum];
                 }
