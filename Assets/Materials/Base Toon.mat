@@ -70,8 +70,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - AlbedoSaturation: 1
+    - LightingSaturation: 1
     - Saturation: 1
-    - Vector1_20F29EF0: 0.5
+    - Vector1_20F29EF0: 0.24
     - Vector1_3568D2C7: 1
     - Vector1_3821E93C: 2
     - Vector1_7F2B146D: 1
