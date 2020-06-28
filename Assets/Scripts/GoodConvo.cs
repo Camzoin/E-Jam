@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace TMPro.Examples
 {
     
-    public class TeleType : MonoBehaviour
+    public class GoodConvo : MonoBehaviour
     {
         //[Range(0, 100)]
         //public int RevealSpeed = 50;
@@ -36,6 +36,8 @@ namespace TMPro.Examples
 
         private void Update()
         {
+            m_textMeshPro.text = sentances[textNum];
+
             //m_textMeshPro.text = sentances[textNum];
             newText = false;
 
@@ -62,40 +64,6 @@ namespace TMPro.Examples
             
             textNum = 0;
             newText = true;
-        }
-
-
-        IEnumerator Start()
-        {
-
-            // Force and update of the mesh to get valid information.
-            m_textMeshPro.ForceMeshUpdate();
-
-
-            int totalVisibleCharacters = m_textMeshPro.textInfo.characterCount; // Get # of Visible Character in text object
-            counter = 0;
-            int visibleCount = 0;
-
-            while (true)
-            {
-                visibleCount = counter % (totalVisibleCharacters + 1);
-
-                m_textMeshPro.maxVisibleCharacters = visibleCount; // How many characters should TextMeshPro display?
-
-                // Once the last character has been revealed, wait 1.0 second and start over.
-                if (visibleCount >= totalVisibleCharacters)
-                {
-                    yield return new WaitWhile(() => newText == false);
-                    m_textMeshPro.text = sentances[textNum];
-                }
-
-                counter += 1;
-
-                yield return new WaitForSeconds(0.05f);
-            }
-
-            //Debug.Log("Done revealing the text.");
-
         }
     }
 }
