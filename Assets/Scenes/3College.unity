@@ -7001,6 +7001,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2525082469713988344, guid: 3bec29398e1142140914482933b7732e,
+        type: 3}
+      propertyPath: saturation
+      value: 0.78
+      objectReference: {fileID: 0}
     - target: {fileID: 8771876896053546950, guid: 3bec29398e1142140914482933b7732e,
         type: 3}
       propertyPath: m_Name
@@ -8526,8 +8531,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.79013884, g: 0.85873914, b: 0.8679245, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.504717, g: 0.95047176, b: 1, a: 1}
+  m_Intensity: 2.09
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
