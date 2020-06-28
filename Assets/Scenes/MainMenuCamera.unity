@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1626,7 +1626,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit
+  m_text: EXIT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6a68589050bfc4bba61bb5e0164b33, type: 2}
   m_sharedMaterial: {fileID: 3177550404427154051, guid: ae6a68589050bfc4bba61bb5e0164b33,
@@ -1995,7 +1995,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Years
+  m_text: NEW YEARS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6a68589050bfc4bba61bb5e0164b33, type: 2}
   m_sharedMaterial: {fileID: 3177550404427154051, guid: ae6a68589050bfc4bba61bb5e0164b33,
@@ -3934,7 +3934,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play
+  m_text: PLAY
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6a68589050bfc4bba61bb5e0164b33, type: 2}
   m_sharedMaterial: {fileID: 3177550404427154051, guid: ae6a68589050bfc4bba61bb5e0164b33,
