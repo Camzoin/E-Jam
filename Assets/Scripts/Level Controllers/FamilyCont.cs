@@ -6,14 +6,25 @@ public class FamilyCont : MonoBehaviour
 {
     public float timeToEvent = 30;
 
-    GameObject player;
+    public PlayerMovement playerMove;
+    public MouseLook playerLook;
 
     float timeInLevel = 0;
+
+    public GameObject door;
+
+    public GameObject sparklerBox, sparklerSpawn;
+
+    bool hasHappened = false;
+
+    public bool interacted = false;
+
+    GameObject sceneChanger;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        sceneChanger = GameObject.Find("Scene Changer");
     }
 
     // Update is called once per frame
@@ -23,17 +34,36 @@ public class FamilyCont : MonoBehaviour
 
         if (timeInLevel > timeToEvent)
         {
-            //event
+            if (hasHappened == false)
+            {
+                //event
 
-            
-            //voice line
+                //open door
+                door.GetComponent<Animator>().SetTrigger("open");
 
+                //voice line
+
+                //spawn sparkler box
+
+                Instantiate(sparklerBox, sparklerSpawn.transform.position, Quaternion.identity);
+
+                hasHappened = true;
+            }
             //wait for palyer to get sparkler
 
-            //player get sparkler
-            //take controller from player
-            //animate sparkler
-            //play fade to black anim
+            if (interacted == true)
+            {
+                //player get sparkler
+
+                //take controller from player
+
+                playerMove.playerControl = false;
+
+                //animate sparkler
+
+                //play fade to black anim
+                sceneChanger.GetComponent<Animator>().SetTrigger("nextLevel");
+            }
         }
     }
 }
