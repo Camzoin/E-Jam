@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -4116,6 +4116,56 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[5]
       value: 
       objectReference: {fileID: 2100000, guid: d2d53f5023785594f9fbcd5976b90971, type: 2}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: SHE IS DOING GOOD
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: WHY ARE YOU THE WAY YOU ARE?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: HOW IS BRENDA DOING?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: ' '
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -4225,6 +4275,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: SUPERMAN DOES GOOD. SHE IS DOING WELL
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: ' '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c40510ecdfaf4754981b10a8c5b262cd, type: 3}
