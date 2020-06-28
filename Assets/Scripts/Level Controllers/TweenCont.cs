@@ -25,7 +25,7 @@ public class TweenCont : MonoBehaviour
 
     public Transform sparkleSpot;
 
-    public GameObject candle;
+    public GameObject candle, candleFX;
 
     // Start is called before the first frame update
     void Start()
@@ -74,6 +74,7 @@ public class TweenCont : MonoBehaviour
                 {
 
                     //Start Shooting Candle
+                    candleFX.SetActive(true);
                     candle.GetComponent<RomanCandle>().isShooting = true;
 
 
