@@ -19,6 +19,8 @@ public class FamilyCont : MonoBehaviour
 
     public bool interacted = false;
 
+    public GameObject sparkler;
+
     GameObject sceneChanger;
 
     // Start is called before the first frame update
