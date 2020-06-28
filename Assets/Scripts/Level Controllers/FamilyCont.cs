@@ -23,6 +23,12 @@ public class FamilyCont : MonoBehaviour
 
     GameObject sceneChanger;
 
+    float sparkleTime = 4.25f;
+
+    float curSparkleTime;
+
+    public Transform sparkleSpot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,18 +63,31 @@ public class FamilyCont : MonoBehaviour
             {
                 //player get sparkler
 
+                sparkler.SetActive(true);
+
                 //take controller from player
 
                 playerMove.playerControl = false;
 
                 //move player to outside
+                playerMove.transform.position = Vector3.Lerp(playerMove.transform.position, sparkleSpot.position, 1 * Time.deltaTime);
 
+                //if palyer in position
+                if (Vector3.Distance(playerMove.transform.position, sparkleSpot.position) < 0.25f)
+                {
+                    //animate sparkler
 
+                    sparkler.GetComponent<Animator>().SetTrigger("light");
 
-                //animate sparkler
+                    //wait
+                    curSparkleTime = curSparkleTime + Time.deltaTime;
 
-                //play fade to black anim
-                sceneChanger.GetComponent<Animator>().SetTrigger("nextLevel");
+                    if (curSparkleTime > sparkleTime)
+                    {
+                        //play fade to black anim
+                        sceneChanger.GetComponent<Animator>().SetTrigger("nextLevel");
+                    }
+                }
             }
         }
     }

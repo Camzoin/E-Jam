@@ -712,6 +712,11 @@ PrefabInstance:
       propertyPath: InitialModule.startSpeed.scalar
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 4236813496653470278, guid: 979b63c49bb0fae4babee15ca98b7a3d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4932020826710193357, guid: 979b63c49bb0fae4babee15ca98b7a3d,
         type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -1274,6 +1279,8 @@ MonoBehaviour:
   sparklerBox: {fileID: 0}
   sparklerSpawn: {fileID: 0}
   interacted: 0
+  sparkler: {fileID: 0}
+  sparkleSpot: {fileID: 0}
 --- !u!4 &1075217721
 Transform:
   m_ObjectHideFlags: 0
@@ -1716,7 +1723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81d8b2802ff6dd4c807d0c46e42ece9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToEvent: 30
+  timeToEvent: 20
   playerMove: {fileID: 694946139}
   playerLook: {fileID: 877814987}
   door: {fileID: 1235953848}
@@ -1724,6 +1731,8 @@ MonoBehaviour:
     type: 3}
   sparklerSpawn: {fileID: 585498912}
   interacted: 0
+  sparkler: {fileID: 1438385606}
+  sparkleSpot: {fileID: 1417734665}
 --- !u!4 &1340880866
 Transform:
   m_ObjectHideFlags: 0
@@ -1950,6 +1959,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0c15e6457bc0394aa6fff2fa5ee7827, type: 3}
+--- !u!1 &1417734664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1417734665}
+  m_Layer: 0
+  m_Name: SparkleSpot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1417734665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417734664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.75, y: 0, z: -4.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1438385606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 149987084426661352, guid: 979b63c49bb0fae4babee15ca98b7a3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 569585977}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1488181759 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5593415594097515923, guid: 7d68058343c5b8e48ad1963bfe8add1a,
