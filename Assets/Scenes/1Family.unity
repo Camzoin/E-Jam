@@ -4002,12 +4002,12 @@ PrefabInstance:
     - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: sentances.Array.data[0]
-      value: THAT BILL CLINTON GUY SURE SEEMSLIKE A STAND UP GUY
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: sentances.Array.data[1]
-      value: I FULLY TRUST HIM
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -4037,12 +4037,12 @@ PrefabInstance:
     - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: sentances.Array.data[1]
-      value: I FULLY TRUST HIM
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: sentances.Array.data[2]
-      value: I LIKE THE WAY HE PLAYS THE SAX
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -4162,7 +4162,7 @@ PrefabInstance:
     - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: sentances.Array.data[0]
-      value: THAT BILL CLINTON GUY SURE SEEMSLIKE A STAND UP GUY
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -4172,7 +4172,7 @@ PrefabInstance:
     - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: sentances.Array.data[2]
-      value: I LIKE THE WAY HE PLAYS THE SAX
+      value: ' '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c40510ecdfaf4754981b10a8c5b262cd, type: 3}
