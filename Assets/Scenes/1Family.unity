@@ -5288,7 +5288,7 @@ PrefabInstance:
     - target: {fileID: 2525082469713988344, guid: 3bec29398e1142140914482933b7732e,
         type: 3}
       propertyPath: saturation
-      value: 1.2
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8771876896053546950, guid: 3bec29398e1142140914482933b7732e,
         type: 3}
@@ -6833,7 +6833,7 @@ PrefabInstance:
     - target: {fileID: 2923312759796626696, guid: 7d68058343c5b8e48ad1963bfe8add1a,
         type: 3}
       propertyPath: isGlobal
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2923312759796626696, guid: 7d68058343c5b8e48ad1963bfe8add1a,
         type: 3}
