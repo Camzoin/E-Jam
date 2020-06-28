@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 5593415592590840292}
-  speed: 12
+  speed: 10
   playerControl: 1
 --- !u!1 &5593415594097515924
 GameObject:
@@ -243,6 +243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f364f03a783cf52449aee9b4a818e919, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 85
   playerBody: {fileID: 5593415592590840293}
   playerControl: 1
