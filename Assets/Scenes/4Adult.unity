@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fef01525adce5c645bfb700d6cddbd5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToEvent: 1
+  timeToEvent: 50
   playerMove: {fileID: 1874349207}
   playerLook: {fileID: 23350177}
   interacted: 0
