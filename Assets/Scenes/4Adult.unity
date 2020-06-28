@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fef01525adce5c645bfb700d6cddbd5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToEvent: 1
+  timeToEvent: 50
   playerMove: {fileID: 1874349207}
   playerLook: {fileID: 23350177}
   interacted: 0
@@ -2126,6 +2126,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a8f543648fb0a42a67287bb56508d8, type: 3}
+--- !u!1 &1078854720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8625011473476206150, guid: e0c60421cfb6e5d4a84f30dc6aa6e7f4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1169048406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1078854721
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078854720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7985036, y: 0.5504581, z: 0.5195582}
+  m_Center: {x: -0.0000017583374, y: 0.2729832, z: 0.0000010579827}
 --- !u!1001 &1120151500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2728,10 +2747,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: AND THEN JACK BROKE UP WITH HER
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: I DON'T KNOW THAT IS JUST WHAT HE DOES
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: ME TOO BUT JACK IS A FAMILY FRIEND
+      objectReference: {fileID: 0}
     - target: {fileID: 2971027976163675130, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 2.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976163675130, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976163675130, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.08
       objectReference: {fileID: 0}
     - target: {fileID: 2971027976462235681, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
@@ -2773,10 +2832,20 @@ PrefabInstance:
       propertyPath: sentances.Array.data[1]
       value: NO! WHY DID SHE DO THAT?
       objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235682, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235682, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3852627134152020301, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
       propertyPath: timer
-      value: 10
+      value: 7.2
       objectReference: {fileID: 0}
     - target: {fileID: 4405588776176257100, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
@@ -2807,6 +2876,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 2.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130228585271, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130228585271, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.08
       objectReference: {fileID: 0}
     - target: {fileID: 4743589130461602028, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
@@ -2847,6 +2926,16 @@ PrefabInstance:
         type: 3}
       propertyPath: sentances.Array.data[1]
       value: '                                                                                           '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602031, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602031, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5267042680002080161, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
@@ -2902,6 +2991,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: NO! WHY DID HE DO THAT
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: I REALLY LIKED HER THO
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 6182422749130592385, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
@@ -3513,6 +3632,71 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: YA I CAN'T BELIEVE WE DID THAT THE OTHER DAY
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: ESPECIALLY BECAUSE WE ARE THE ADULTS NOW
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976163675130, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976163675130, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976163675130, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.437
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976163675130, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.141
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235682, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235682, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852627134152020301, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: timer
+      value: 3.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4405588776176257100, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -3538,6 +3722,36 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: b0d8552eecc7d7f4fb5c26246e4e69d6, type: 2}
+    - target: {fileID: 4743589130228585271, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130228585271, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130228585271, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.273
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130228585271, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602031, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602031, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 5267042680002080161, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3592,6 +3806,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: THAT WAS PRETTY STUPID OF US
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 6182422749130592385, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
@@ -3937,6 +4181,56 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: THE ONE WE WENT TO SCHOOL WITH? BO?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501228375350677917, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: I STILL TALK TO HIM. HE GOT INTO THE YOUTUBE THING AND DOES COMEDY NOW
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976163675130, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976163675130, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235682, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235682, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852627134152020301, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: timer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4405588776176257100, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -3962,6 +4256,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 93569c33800b14d408fce683faef4e35, type: 2}
+    - target: {fileID: 4743589130228585271, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130228585271, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602031, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602031, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 5267042680002080161, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4016,6 +4330,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: REMEMBER THAT ONE GUY THAT ONE TIME
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: YA HIS NAME WAS BO WASN'T IT! WHAT IS HE DOING?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5357470388440893776, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 6182422749130592385, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
