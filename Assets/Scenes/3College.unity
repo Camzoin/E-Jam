@@ -3176,6 +3176,96 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[4]
       value: 
       objectReference: {fileID: 2100000, guid: d2d53f5023785594f9fbcd5976b90971, type: 2}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: ARE YOU GUYS TALKING ABOUT POLITICS AGAIN?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: WHAT? SINCE WHEN IS TALKING ABOUT ACTORS POLITICAL?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: UHH, SINCE THEY STARTED CHOOSING ACTORS BASED ON MINORITIES AND WOMEN?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: HOW IS CHOOSING A BLACK LEAD A POLITICAL STATEMENT?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[5]
+      value: BECAUSE THEY'RE TAKING THE JOB FROM A WHITE ACTOR.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[6]
+      value: IT'S LITERALLY A MOVIE ABOUT GANG WARS.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[7]
+      value: OH, SO SUDDENLY ALL GANG MEMBERS ARE BLACK? NOT VERY PC OF YOU, BRO.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[8]
+      value: WHO INVITED THIS GUY?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: ARE YOU GUYS TALKING ABOUT POLITICS AGAIN?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: WHAT? SINCE WHEN IS TALKING ABOUT ACTORS POLITICAL?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: UHH, SINCE THEY STARTED CHOOSING ACTORS BASED ON MINORITIES AND WOMEN?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: HOW IS CHOOSING A BLACK LEAD A POLITICAL STATEMENT?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[5]
+      value: BECAUSE THEY'RE TAKING THE JOB FROM A WHITE ACTOR.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[6]
+      value: IT'S LITERALLY A MOVIE ABOUT GANG WARS.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[7]
+      value: OH, SO SUDDENLY ALL GANG MEMBERS ARE BLACK? NOT VERY PC OF YOU, BRO.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[8]
+      value: WHO INVITED THIS GUY?
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -3285,6 +3375,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: ARE YOU GUYS TALKING ABOUT POLITICS AGAIN?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: WHAT? SINCE WHEN IS TALKING ABOUT ACTORS POLITICAL?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: UHH, SINCE THEY STARTED CHOOSING ACTORS BASED ON MINORITIES AND WOMEN?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: HOW IS CHOOSING A BLACK LEAD A POLITICAL STATEMENT?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[5]
+      value: BECAUSE THEY'RE TAKING THE JOB FROM A WHITE ACTOR.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[6]
+      value: IT'S LITERALLY A MOVIE ABOUT GANG WARS.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[7]
+      value: OH, SO SUDDENLY ALL GANG MEMBERS ARE BLACK? NOT VERY PC OF YOU, BRO.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[8]
+      value: WHO INVITED THIS GUY?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c40510ecdfaf4754981b10a8c5b262cd, type: 3}
@@ -5289,6 +5424,36 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 03a6fe6cc75f87440a726eb3192f0eac, type: 2}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: BRO, WHEN WAS THE LAST TIME YOU WENT TO THE MOVIES?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: WHY?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: I'M BORED, DUDE. LET'S JUST GO.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: I MEAN OKAY BUT YOU'RE BUYING.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711757102587873584, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: HAHA COOL BUT NO HOMO.
+      objectReference: {fileID: 0}
     - target: {fileID: 2039129815329562764, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: sentances.Array.size
@@ -5353,6 +5518,36 @@ PrefabInstance:
         type: 3}
       propertyPath: sentances.Array.data[1]
       value: '                                                    '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -5498,6 +5693,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: BRO, WHEN WAS THE LAST TIME YOU WENT TO THE MOVIES?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: WHY?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: I'M BORED, DUDE. LET'S JUST GO.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: I MEAN OKAY BUT YOU'RE BUYING.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164483403420439037, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: HAHA COOL BUT NO HOMO.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c40510ecdfaf4754981b10a8c5b262cd, type: 3}
