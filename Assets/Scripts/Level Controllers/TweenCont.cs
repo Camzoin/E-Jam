@@ -72,16 +72,18 @@ public class TweenCont : MonoBehaviour
                 //if palyer in position
                 if (Vector3.Distance(playerMove.transform.position, sparkleSpot.position) < 0.25f)
                 {
-                }
 
                     //Start Shooting Candle
+                    candle.GetComponent<RomanCandle>().isShooting = true;
+
 
                     if (candleHit == true)
-                {
-                    //play fade to black anim
-                    sceneChanger.GetComponent<Animator>().SetTrigger("nextLevel");
+                    {
+                        //play fade to black anim
+                        sceneChanger.GetComponent<Animator>().SetTrigger("nextLevel");
+                    }
                 }
-            }
+            }           
         }
     }
 }
