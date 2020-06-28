@@ -32,6 +32,8 @@ public class Walker : MonoBehaviour
         gameObject.GetComponent<NavMeshAgent>().SetDestination(destination.position);
 
         character = transform.GetComponentInChildren<Animator>();
+
+        character.SetBool("isWalking", true);
     }
 
     // Update is called once per frame
