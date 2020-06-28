@@ -1,19 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class DDOL : MonoBehaviour
+public class CloseGame : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        Object.DontDestroyOnLoad(this.gameObject);
+        
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void Update()
     {
-        gameObject.GetComponent<Animator>().ResetTrigger("nextLevel");
+        
+    }
+
+    public void closeGame()
+    {
+            Application.Quit();
     }
 }

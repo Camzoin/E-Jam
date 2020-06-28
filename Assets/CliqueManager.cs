@@ -7,8 +7,8 @@ public class CliqueManager : MonoBehaviour
 {
     List<GameObject> persons = new List<GameObject>();
 
-    float timer = 5, time;
-
+    public float timer = 5;
+    float time;
     // Start is called before the first frame update
     void Start()
     {
