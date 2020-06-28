@@ -17,6 +17,8 @@ public class Walker : MonoBehaviour
 
     bool waiting = false;
 
+    Animator character;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,8 @@ public class Walker : MonoBehaviour
         destination = points[Random.Range(0, points.Count)];
 
         gameObject.GetComponent<NavMeshAgent>().SetDestination(destination.position);
+
+        character = transform.GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -35,6 +39,10 @@ public class Walker : MonoBehaviour
     {     
         if (Vector3.Distance(transform.position, destination.position) < closeEnoughDist)
         {
+            //play idle
+            character.SetBool("isWalking", false);
+
+
             waiting = true;
 
             gameObject.GetComponent<NavMeshAgent>().SetDestination(transform.position);
@@ -48,6 +56,9 @@ public class Walker : MonoBehaviour
 
             if (time > timer)
             {
+                //play run
+                character.SetBool("isWalking", true);
+
                 timer = Random.Range(2, 10);
                 time = 0;
 
