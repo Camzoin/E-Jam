@@ -23,7 +23,7 @@ public class FamilyCont : MonoBehaviour
 
     GameObject sceneChanger;
 
-    float sparkleTime = 4.25f;
+    float sparkleTime = 3.75f;
 
     float curSparkleTime;
 

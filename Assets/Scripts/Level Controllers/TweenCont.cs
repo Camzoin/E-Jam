@@ -23,6 +23,10 @@ public class TweenCont : MonoBehaviour
 
     GameObject sceneChanger;
 
+    public Transform sparkleSpot;
+
+    public GameObject candle;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,16 +60,23 @@ public class TweenCont : MonoBehaviour
             if (interacted == true)
             {
                 //player get candle
+                candle.SetActive(true);
 
                 //take controller from player
 
                 playerMove.playerControl = false;
 
                 //move player to outside
+                playerMove.transform.position = Vector3.Lerp(playerMove.transform.position, sparkleSpot.position, 1 * Time.deltaTime);
 
-                //Start Shooting Candle
+                //if palyer in position
+                if (Vector3.Distance(playerMove.transform.position, sparkleSpot.position) < 0.25f)
+                {
+                }
 
-                if (candleHit == true)
+                    //Start Shooting Candle
+
+                    if (candleHit == true)
                 {
                     //play fade to black anim
                     sceneChanger.GetComponent<Animator>().SetTrigger("nextLevel");

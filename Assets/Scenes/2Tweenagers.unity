@@ -157,6 +157,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1133584267}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &112864828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5904911165442006193, guid: 1adb23217dfb8514c80e9efc217e3af6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1225893309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &304536724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -374,6 +380,8 @@ MonoBehaviour:
   sparklerSpawn: {fileID: 1062437114}
   interacted: 0
   candleHit: 0
+  sparkleSpot: {fileID: 1560161846}
+  candle: {fileID: 112864828}
 --- !u!4 &453694781
 Transform:
   m_ObjectHideFlags: 0
@@ -1657,6 +1665,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0c15e6457bc0394aa6fff2fa5ee7827, type: 3}
+--- !u!1 &1560161845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1560161846}
+  m_Layer: 0
+  m_Name: SparkleSpot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1560161846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560161845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.69, y: 0, z: -3.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1592374900
 PrefabInstance:
   m_ObjectHideFlags: 0
