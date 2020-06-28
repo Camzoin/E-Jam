@@ -85,11 +85,11 @@ MonoBehaviour:
     m_Value: 1
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 10.57
+    m_Value: 3
     min: 0
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 98.8
+    m_Value: 0
     min: 0
   gaussianMaxRadius:
     m_OverrideState: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   color:
     m_OverrideState: 1
@@ -176,11 +176,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   threshold:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.68
     min: 0
   intensity:
     m_OverrideState: 1
@@ -188,7 +188,7 @@ MonoBehaviour:
     min: 0
   scatter:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.175
     min: 0
     max: 1
   clamp:
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
-    m_Value: 0.33
+    m_Value: 0.92
   contrast:
     m_OverrideState: 1
     m_Value: 16
@@ -241,11 +241,11 @@ MonoBehaviour:
     showEyeDropper: 1
   hueShift:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 98
     min: -180
     max: 180
   saturation:
     m_OverrideState: 1
-    m_Value: 35
+    m_Value: 100
     min: -100
     max: 100
