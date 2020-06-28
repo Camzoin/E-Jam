@@ -2728,6 +2728,56 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2971027976163675130, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235681, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235681, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: '                                                            '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235681, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: I REALLY LIKED JACK
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235681, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: '                                                            '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235681, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[5]
+      value: '                                                            '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235681, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[6]
+      value: God I love memes
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235681, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: '                                                            '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971027976462235681, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: NO! WHY DID SHE DO THAT?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852627134152020301, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: timer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4405588776176257100, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -2753,6 +2803,51 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: b0d8552eecc7d7f4fb5c26246e4e69d6, type: 2}
+    - target: {fileID: 4743589130228585271, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602028, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602028, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: I DON'T KNOW THAT IS JUST HOW SHE IS
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602028, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: '                                                                                           '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602028, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: YA, I DID TOO BUT I'VE KNOWN HER SO LONG
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602028, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[5]
+      value: '                                                                                           '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602028, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[6]
+      value: God I love memes
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602028, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: AND THEN AMANDA BROKE UP WITH JACK
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743589130461602028, guid: 76640bc52a6fb0249989df9fc3f8cc29,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: '                                                                                           '
+      objectReference: {fileID: 0}
     - target: {fileID: 5267042680002080161, guid: 76640bc52a6fb0249989df9fc3f8cc29,
         type: 3}
       propertyPath: m_LocalPosition.x

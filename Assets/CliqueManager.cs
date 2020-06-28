@@ -31,7 +31,7 @@ public class CliqueManager : MonoBehaviour
 
             foreach (GameObject person in persons)
             {
-                person.GetComponentInChildren<TeleType>().outsideTrig = true;
+                person.GetComponentInChildren<GoodConvo>().outsideTrig = true;
                 // everyone does something
             }
         }
