@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/0MainMenu.unity
     guid: 8caea1986ba1bb242a42fdc8cb9bbf27
@@ -16,7 +13,7 @@ EditorBuildSettings:
     guid: 19818292e122e234a8d363fa4591123b
   - enabled: 1
     path: Assets/Scenes/2Tweenagers.unity
-    guid: 27b5d711de5acde478f506c1be63a083
+    guid: a369beed49bedc443803abfe3b321ab9
   - enabled: 1
     path: Assets/Scenes/3College.unity
     guid: 0afdd325d1c4c224199a4dd9d1c16600
