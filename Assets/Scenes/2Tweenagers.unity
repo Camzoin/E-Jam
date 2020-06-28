@@ -207,7 +207,7 @@ PrefabInstance:
     - target: {fileID: 3808780466779783612, guid: b765452c68e23684c84264711f8a7bcc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3808780466779783612, guid: b765452c68e23684c84264711f8a7bcc,
         type: 3}
@@ -294,10 +294,11 @@ MonoBehaviour:
   playerMove: {fileID: 1437742150}
   playerLook: {fileID: 1673967527}
   door: {fileID: 97100537}
-  sparklerBox: {fileID: 5637519334331042558, guid: 73d862f4a445c594484fe0ea92c8ad54,
+  sparklerBox: {fileID: 5637519334331042558, guid: acf75c276577f5a4491c6416856ddf77,
     type: 3}
   sparklerSpawn: {fileID: 1062437114}
   interacted: 0
+  candleHit: 0
 --- !u!4 &453694781
 Transform:
   m_ObjectHideFlags: 0
@@ -310,7 +311,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &690701313
 GameObject:
@@ -345,7 +346,7 @@ Transform:
   - {fileID: 444418654}
   - {fileID: 2055575127}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &825621152
 PrefabInstance:
@@ -496,7 +497,7 @@ PrefabInstance:
     - target: {fileID: 3808780466779783612, guid: b765452c68e23684c84264711f8a7bcc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3808780466779783612, guid: b765452c68e23684c84264711f8a7bcc,
         type: 3}
@@ -526,56 +527,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1133584267}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1075217719
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1075217721}
-  - component: {fileID: 1075217720}
-  m_Layer: 0
-  m_Name: Level Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1075217720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075217719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d81d8b2802ff6dd4c807d0c46e42ece9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeToEvent: 30
-  playerMove: {fileID: 0}
-  playerLook: {fileID: 0}
-  door: {fileID: 0}
-  sparklerBox: {fileID: 0}
-  sparklerSpawn: {fileID: 0}
-  interacted: 0
---- !u!4 &1075217721
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075217719}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1077705939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -999,7 +950,7 @@ PrefabInstance:
     - target: {fileID: 3808780466779783612, guid: b765452c68e23684c84264711f8a7bcc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3808780466779783612, guid: b765452c68e23684c84264711f8a7bcc,
         type: 3}
@@ -1226,7 +1177,7 @@ PrefabInstance:
     - target: {fileID: 416776258474179973, guid: 3bec29398e1142140914482933b7732e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 416776258474179973, guid: 3bec29398e1142140914482933b7732e,
         type: 3}
