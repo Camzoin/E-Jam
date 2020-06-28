@@ -5289,6 +5289,71 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 03a6fe6cc75f87440a726eb3192f0eac, type: 2}
+    - target: {fileID: 2039129815329562764, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039129815329562764, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: newText
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039129815329562764, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: '                                              '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039129815329562764, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: Uhhh...What?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039129815329562764, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039129815329562764, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: Again?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039129815329562764, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: '                                                  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973599872319, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973599872319, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: What do you tell someone you didn't see at New Year's Eve?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973599872319, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973599872319, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: I haven't seen you for a year!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973599872319, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: You want to hear a joke?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973599872319, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: '                                                    '
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[4]
@@ -5343,6 +5408,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955397269569, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955397269569, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: '                                                 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955397269569, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[3]
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955397269569, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955397269569, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: '                                           '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955397269569, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: not again...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955397269569, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: sentances.Array.data[5]
+      value: 'shut the ---- SHUT UP '
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
