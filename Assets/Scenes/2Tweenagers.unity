@@ -2300,6 +2300,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 93569c33800b14d408fce683faef4e35, type: 2}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.44
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -2354,6 +2364,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.44
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -3478,6 +3493,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[5]
       value: 
       objectReference: {fileID: 2100000, guid: 521878004bbffe44a82787c5cfdaec4d, type: 2}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.44
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -3532,6 +3557,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.44
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -4141,6 +4171,16 @@ PrefabInstance:
       propertyPath: sentances.Array.data[3]
       value: WHY ARE YOU THE WAY YOU ARE?
       objectReference: {fileID: 0}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.44
+      objectReference: {fileID: 0}
     - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: sentances.Array.size
@@ -4220,6 +4260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.44
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}

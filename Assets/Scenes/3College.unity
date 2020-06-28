@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1152,6 +1152,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 6b13956a31f57f545ba3c23e35079a3b, type: 2}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -1206,6 +1216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -3221,6 +3236,16 @@ PrefabInstance:
       propertyPath: sentances.Array.data[8]
       value: ' '
       objectReference: {fileID: 0}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
     - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: sentances.Array.size
@@ -3320,6 +3345,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -4768,6 +4798,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 93569c33800b14d408fce683faef4e35, type: 2}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -4823,6 +4863,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -5489,6 +5534,11 @@ PrefabInstance:
       propertyPath: sentances.Array.data[0]
       value: '                                                  '
       objectReference: {fileID: 0}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
     - target: {fileID: 2487316973599872319, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: sentances.Array.size
@@ -5518,6 +5568,11 @@ PrefabInstance:
         type: 3}
       propertyPath: sentances.Array.data[1]
       value: '                                                    '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 4748484236201075790, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -5638,6 +5693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: sentances.Array.data[5]
       value: 'shut the ---- SHUT UP '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -5851,6 +5911,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 93569c33800b14d408fce683faef4e35, type: 2}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -5905,6 +5975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -18368,6 +18443,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 93569c33800b14d408fce683faef4e35, type: 2}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -18422,6 +18507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -19175,6 +19265,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 6b13956a31f57f545ba3c23e35079a3b, type: 2}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -19229,6 +19329,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
@@ -20133,6 +20238,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[5]
       value: 
       objectReference: {fileID: 2100000, guid: d2d53f5023785594f9fbcd5976b90971, type: 2}
+    - target: {fileID: 2039129815631319895, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2487316973831382756, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
+      objectReference: {fileID: 0}
     - target: {fileID: 6806046330944109983, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -20187,6 +20302,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Test Clique (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8404801955629288346, guid: c40510ecdfaf4754981b10a8c5b262cd,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.19
       objectReference: {fileID: 0}
     - target: {fileID: 8966399256420119820, guid: c40510ecdfaf4754981b10a8c5b262cd,
         type: 3}
