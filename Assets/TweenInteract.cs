@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interactable : MonoBehaviour
+public class TweenInteract : MonoBehaviour
 {
     Transform player;
 
@@ -25,7 +25,7 @@ public class Interactable : MonoBehaviour
 
                 GameObject controller = GameObject.FindGameObjectWithTag("GameController");
 
-                controller.GetComponent<FamilyCont>().interacted = true;
+                controller.GetComponent<TweenCont>().interacted = true;
             }
         }
     }
