@@ -59,6 +59,10 @@ public class FamilyCont : MonoBehaviour
 
                 playerMove.playerControl = false;
 
+                //move player to outside
+
+
+
                 //animate sparkler
 
                 //play fade to black anim
