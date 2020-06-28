@@ -308,6 +308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hair03_orange
       objectReference: {fileID: 0}
+    - target: {fileID: 8167841021214097711, guid: c996e1e7a84d2194b8bb2ae17ac03078,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8796040858251352981, guid: c996e1e7a84d2194b8bb2ae17ac03078,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -365,6 +370,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c996e1e7a84d2194b8bb2ae17ac03078, type: 3}
+--- !u!1001 &3311513989436061551
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4607614
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821884753663385918, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3198269967447505796, guid: 83ac808054d0aae41bfc0e60ccb3370a,
+        type: 3}
+      propertyPath: m_Name
+      value: fan
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83ac808054d0aae41bfc0e60ccb3370a, type: 3}
 --- !u!1001 &4186344816418024565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -524,6 +598,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hair03_pink
+      objectReference: {fileID: 0}
+    - target: {fileID: 3706456579212571915, guid: 0c11b13b6ff1d9c43ab28f71a7f27ebe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4045404766399868849, guid: 0c11b13b6ff1d9c43ab28f71a7f27ebe,
         type: 3}
@@ -796,6 +875,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hair03_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935396717871534371, guid: cd519cdd0f7f7124da397ec1c376d932,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd519cdd0f7f7124da397ec1c376d932, type: 3}
